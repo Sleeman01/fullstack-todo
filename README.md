@@ -4,7 +4,7 @@
 
 A small full‑stack project built to learn how **frontend** and **backend** work together.  
 You can create tasks, mark them as done, edit them, filter them, and clear completed items.  
-**Want to publish on the Google Play Store?** See **[PLAY_STORE.md](./PLAY_STORE.md)** for the full guide.
+
 
 ---
 
@@ -117,7 +117,6 @@ All endpoints are under `http://localhost:3001`.
 
 - Persist tasks in a real database (e.g. SQLite, PostgreSQL, or MongoDB).
 - Add user accounts and authentication.
-- Add due dates, priorities, and tags.
 - Add tests (unit tests for backend routes and React components).
 
 ---
