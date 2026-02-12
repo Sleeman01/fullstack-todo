@@ -1,0 +1,34 @@
+========================================
+IMPORTANT: Open THIS folder in Android Studio
+========================================
+
+You must open the FOLDER THAT CONTAINS THIS FILE, not the parent.
+
+Correct path to open:
+  C:\Users\ekete\OneDrive\Documents\cursor\fullstack-todo\frontend\android
+
+Steps:
+1. Close the current project in Android Studio (File → Close Project).
+2. Click "Open" and go to the path above.
+3. Select the "android" folder (the one that contains app, build.gradle, gradlew.bat).
+4. Click OK.
+5. After it opens: File → Settings → Build, Execution, Deployment → Build Tools → Gradle
+   → Set "Gradle JDK" to Java 17 (e.g. "Eclipse Temurin 17" or "17").
+6. Click "Apply" then "OK".
+7. File → Sync Project with Gradle Files. Wait until "Gradle sync finished".
+8. Run → Edit Configurations → select "app" → Module dropdown should now show "app". Select it → OK.
+9. Run the app (green button).
+
+If you opened "fullstack-todo" or "frontend" instead of "frontend\android", the Module list will be empty. Always open "android" inside "frontend".
+
+---
+RUN THE APP FROM TERMINAL (if Module dropdown is still empty)
+---
+You can build and run the app without using the green Run button:
+
+1. Connect an Android phone (USB debugging on) or start an emulator.
+2. Open PowerShell or Command Prompt.
+3. Run:
+   cd "C:\Users\ekete\OneDrive\Documents\cursor\fullstack-todo\frontend\android"
+   .\gradlew.bat installDebug
+4. The app will install and you can open "Get it done" on the device.

@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+*.apk
+*.aab
+
+# Environment files (may contain secrets)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Android/Gradle caches (in frontend/android)
+frontend/android/.gradle/
+frontend/android/app/build/
+frontend/android/build/
+frontend/android/capacitor-cordova-android-plugins/build/
+
+# Capacitor generated files (can be regenerated with cap sync)
+frontend/android/app/src/main/assets/public/
+frontend/android/app/src/main/assets/capacitor.config.json
+frontend/android/app/src/main/assets/capacitor.plugins.json
+frontend/android/app/src/main/res/xml/config.xml

@@ -1,0 +1,8 @@
+{
+  "appId": "com.getitdone.todo",
+  "appName": "Get it done",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

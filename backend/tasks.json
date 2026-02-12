@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "task 1",
+      "done": false,
+      "createdAt": "2026-02-12T06:20:06.466Z",
+      "dueDate": "2026-02-13",
+      "priority": "low"
+    },
+    {
+      "id": 2,
+      "text": "task2",
+      "done": false,
+      "createdAt": "2026-02-12T06:20:13.880Z",
+      "dueDate": null,
+      "priority": "high"
+    },
+    {
+      "id": 3,
+      "text": "task3",
+      "done": false,
+      "createdAt": "2026-02-12T06:20:38.908Z",
+      "dueDate": "2026-02-18",
+      "priority": "medium"
+    }
+  ],
+  "nextId": 4
+}
